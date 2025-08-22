@@ -1,0 +1,153 @@
+
+<!DOCTYPE html>
+<html lang="hi">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>सावरिया MP Online सेवा केंद्र | मोहन बड़ोठिया, जिला शाजापुर</title>
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&family=Noto+Sans+Devanagari:wght@400;600;700&display=swap" rel="stylesheet">
+<style>
+  :root{
+    --bg:#0f1226; --fg:#eef1ff; --muted:#b9c0ff;
+    --brand:#ff7b54; --brand2:#ffcc29;
+    --card:#171b3a; --shadow:0 10px 30px rgba(0,0,0,.25); --radius:18px;
+  }
+  body{margin:0;background:var(--bg);color:var(--fg);font-family:"Noto Sans Devanagari","Poppins",sans-serif}
+  a{color:inherit;text-decoration:none}
+  .container{max-width:1100px;margin:0 auto;padding:0 18px}
+  .btn{padding:10px 18px;border-radius:999px;background:linear-gradient(135deg,var(--brand),var(--brand2));color:#000;font-weight:600;cursor:pointer;display:inline-block}
+  header{position:sticky;top:0;background:rgba(15,18,38,.6);backdrop-filter:blur(10px);z-index:10}
+  .nav{display:flex;justify-content:space-between;align-items:center;padding:10px 0}
+  nav ul{list-style:none;display:flex;gap:16px;margin:0;padding:0}
+  nav a:hover{color:var(--brand2)}
+  section{padding:50px 0}
+  h2{font-size:26px;margin-bottom:14px}
+  .card{background:var(--card);border-radius:var(--radius);padding:16px;box-shadow:var(--shadow)}
+  /* Slider */
+  .slider{position:relative;overflow:hidden;border-radius:var(--radius);margin-bottom:20px}
+  .slides{display:flex;width:300%;animation:slide 12s infinite}
+  .slides img{width:100%;object-fit:cover}
+  @keyframes slide{0%{transform:translateX(0)}33%{transform:translateX(-100%)}66%{transform:translateX(-200%)}100%{transform:translateX(0)}}
+  /* Updates */
+  .update{margin-bottom:10px}
+  /* FAQ */
+  .faq-item{margin-bottom:10px}
+  .faq-q{background:var(--card);padding:12px;border-radius:10px;cursor:pointer}
+  .faq-a{display:none;padding:10px;color:var(--muted)}
+  .faq-q.open + .faq-a{display:block}
+  /* QR */
+  .qr-box{text-align:center}
+  .qr-box img{max-width:200px;border:8px solid #fff;border-radius:12px;box-shadow:var(--shadow)}
+  footer{padding:20px 0;text-align:center;color:var(--muted)}
+</style>
+</head>
+<body>
+<header>
+  <div class="container nav">
+    <strong>सावरिया MP Online</strong>
+    <nav>
+      <ul>
+        <li><a href="#home">होम</a></li>
+        <li><a href="#services">सेवाएँ</a></li>
+        <li><a href="#updates">अपडेट</a></li>
+        <li><a href="#faq">FAQ</a></li>
+        <li><a href="#payment">पेमेंट</a></li>
+        <li><a href="#gallery">गैलरी</a></li>
+        <li><a href="#contact">संपर्क</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<!-- ===== Hero with Slider ===== -->
+<section id="home" class="container">
+  <div class="slider card">
+    <div class="slides">
+      <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?q=80&w=1200&auto=format" alt="स्लाइड 1">
+      <img src="https://images.unsplash.com/photo-1556157382-97eda2d62296?q=80&w=1200&auto=format" alt="स्लाइड 2">
+      <img src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=1200&auto=format" alt="स्लाइड 3">
+    </div>
+  </div>
+  <h1>🙏 स्वागत है सावरिया MP Online पर</h1>
+  <p><strong>मोहन बड़ोठिया, जिला शाजापुर</strong><br>यहाँ आपको सभी सरकारी सेवाएँ एक ही जगह मिलेंगी।</p>
+  <a class="btn" href="#contact">अभी संपर्क करें</a>
+</section>
+
+<!-- ===== Services ===== -->
+<section id="services" class="container">
+  <h2>हमारी सेवाएँ</h2>
+  <div class="card"><strong>बिल भुगतान:</strong> बिजली, पानी, मोबाइल रिचार्ज</div><br>
+  <div class="card"><strong>प्रमाणपत्र:</strong> जन्म, आय, निवास, जाति प्रमाणपत्र</div><br>
+  <div class="card"><strong>आधार/पैन:</strong> अपडेट, प्रिंट, लिंकिंग</div>
+</section>
+
+<!-- ===== Updates ===== -->
+<section id="updates" class="container">
+  <h2>दैनिक अपडेट</h2>
+  <div class="card update">आज बिजली बिल सब्सिडी के आवेदन शुरू हुए ✅</div>
+  <div class="card update">छात्रवृत्ति आवेदन की अंतिम तिथि 30 सितम्बर है 📌</div>
+</section>
+
+<!-- ===== FAQ ===== -->
+<section id="faq" class="container">
+  <h2>अक्सर पूछे जाने वाले सवाल</h2>
+  <div class="faq-item">
+    <div class="faq-q">❓ आपके सेंटर का टाइम क्या है?</div>
+    <div class="faq-a">सुबह 9:00 बजे से रात 8:00 बजे तक, सप्ताह के 7 दिन खुले रहते हैं।</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">❓ क्या यहाँ आधार कार्ड अपडेट होता है?</div>
+    <div class="faq-a">जी हाँ, आधार प्रिंट और लिंकिंग में मदद उपलब्ध है।</div>
+  </div>
+  <div class="faq-item">
+    <div class="faq-q">❓ क्या ऑनलाइन पेमेंट लिया जाता है?</div>
+    <div class="faq-a">हाँ, UPI/PhonePe/Paytm से भुगतान कर सकते हैं।</div>
+  </div>
+</section>
+
+<!-- ===== Payment / QR ===== -->
+<section id="payment" class="container">
+  <h2>ऑनलाइन पेमेंट</h2>
+  <div class="qr-box">
+    <p>आप QR कोड स्कैन करके सीधे भुगतान कर सकते हैं:</p>
+    <img src="https://upload.wikimedia.org/wikipedia/commons/8/89/UPI-QR-Code.png" alt="UPI QR">
+    <p><strong>UPI ID:</strong> <span style="color:#0f0">6261906515@xel</span></p>
+  </div>
+</section>
+
+<!-- ===== Gallery ===== -->
+<section id="gallery" class="container">
+  <h2>गैलरी</h2>
+  <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:10px">
+    <img class="card" src="https://images.unsplash.com/photo-1518779578993-ec3579fee39f?q=80&w=800&auto=format" alt="काउंटर">
+    <img class="card" src="https://images.unsplash.com/photo-1523475496153-3d6cc0f0d4a5?q=80&w=800&auto=format" alt="कम्प्यूटर">
+    <img class="card" src="https://images.unsplash.com/photo-1460925895917-afdab827c52f?q=80&w=800&auto=format" alt="सेवा">
+  </div>
+</section>
+
+<!-- ===== Contact ===== -->
+<section id="contact" class="container">
+  <h2>संपर्क करें</h2>
+  <div class="card">
+    <p><strong>दुकान का नाम:</strong> सावरिया MP Online</p>
+    <p><strong>पता:</strong> मोहन बड़ोठिया, जिला शाजापुर (म.प्र.)</p>
+    <p><strong>मोबाइल:</strong> <a href="tel:+916261906519">6261906519</a></p>
+    <p><strong>WhatsApp:</strong> <a href="https://wa.me/916261906519">चैट शुरू करें</a></p>
+    <p><strong>ईमेल:</strong> <a href="mailto:apal92043@gmail.com">apal92043@gmail.com</a></p>
+  </div>
+</section>
+
+<footer>
+  © <span id="year"></span> सावरिया MP Online. सर्वाधिकार सुरक्षित।
+</footer>
+
+<script>
+  // FAQ Toggle
+  document.querySelectorAll(".faq-q").forEach(el=>{
+    el.addEventListener("click", ()=> el.classList.toggle("open"));
+  });
+  // Year
+  document.getElementById("year").textContent=new Date().getFullYear();
+</script>
+</body>
+</html>
